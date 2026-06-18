@@ -92,7 +92,7 @@ A constant value which can be assigned to the `varible` is called as a Literal.
 | Define the kind of data (`int`, `double`, `char`, `String`). | Can change their values during execution. | Fixed values such as `10`, `3.14`, `'A'`, `"Hello"`. |
 | Examples: `int`, `float`, `char`, `boolean`, `String` | Examples: `age`, `price`, `grade`, `name` | Examples: `20`, `99.99`, `'A'`, `"Rahul"` |
 
-### Example
+### Example 1
 
 ```java
 int age = 20;
@@ -101,13 +101,14 @@ int age = 20;
 - `int` → Data Type
 - `age` → Variable
 - `20` → Literal
-```
+
+### Example 2
 
 ```java
 String name = "Rahul";
 ```
 
-- `String` → Data type
+- `String` → Data Type
 - `name` → Variable
 - `"Rahul"` → Literal
 
