@@ -49,6 +49,15 @@ Comments are used to improve code readability.
 
 Variables are named memory locations used to store data values in a program. The value of a variable can change during program execution. Each variable must be declared with a specific data type, such as `int`, `double`, `char`, or `String`.
 
+### Rules for Declaring a varible name
+
+* Must not begin with a Digit.
+* Name is case sensitive (ex: `Arabind` and `arabind` are different)
+* Should not be a Keyword (Like void).
+* White Space not allowed (ex:`int Ara bind` is invalid)
+* Can contain `Alphabates`,`$ Character`,`_ Character` and `digits` if the    other conditions are met.
+  
+
 ## Data Types
 
 Data types specify the type of data that a variable can store. Java provides two categories of data types: primitive and non-primitive.
