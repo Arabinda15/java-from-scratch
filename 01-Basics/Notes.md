@@ -132,6 +132,58 @@ Operators are special symbols used to perform operations on variables and values
 * **Bitwise Operators** (`&`, `|`, `^`, `~`, `<<`, `>>`) – Perform operations on individual bits.
 * **Ternary Operator** (`?:`) – A shorthand form of the `if-else` statement.
 
+### Reading data from the 'Keyboard'
+
+In order to read data from the `keyboard`, java has a `Scanner class`. it has a lot
+of methods to read or take data from the Keyboard.
+
+## Syntax
+
+```java
+import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);
+```
+
+## Example
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+
+        System.out.println("Age: " + age);
+
+        sc.close();
+    }
+}
+```
+
+## Common Scanner Methods
+
+| Method | Description |
+|----------|-------------|
+| `nextInt()` | Reads an integer value |
+| `nextDouble()` | Reads a double value |
+| `nextFloat()` | Reads a float value |
+| `next()` | Reads a single word |
+| `nextLine()` | Reads an entire line |
+| `nextBoolean()` | Reads a boolean value |
+
+## Key Points
+
+- `Scanner` belongs to the `java.util` package.
+- `System.in` represents the keyboard input stream.
+- A `Scanner` object is required to read input from the user.
+- Use different methods according to the type of data being read.
+- It is good practice to close the scanner using `sc.close()` after use.
+
 ## Type Casting
 
 Type casting is the process of converting a value from one data type to another. In Java, type casting is of two types:
