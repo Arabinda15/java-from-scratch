@@ -207,8 +207,6 @@ int result = (10 + 5) * 2;
 System.out.println(result); // Output: 30
 ```
 
----
-
 ## Associativity
 Associativity determines the order in which operators of the same precedence are evaluated.
 
