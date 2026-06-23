@@ -239,7 +239,74 @@ System.out.println(c); // 10
 - `b = c`
 - `a = b`
 
----
+## Increment and Decrement Operators
+
+### Increment Operator (`++`)
+The increment operator increases the value of a variable by `1`.
+
+### Syntax
+```java
+variable++;
+++variable;
+```
+
+### Types of Increment Operators
+
+#### 1. Pre-Increment (`++variable`)
+The value is incremented before it is used in the expression.
+
+```java
+int a = 5;
+int b = ++a;
+
+System.out.println(a); // Output: 6
+System.out.println(b); // Output: 6
+```
+
+#### 2. Post-Increment (`variable++`)
+The value is used first and then incremented.
+
+```java
+int a = 5;
+int b = a++;
+
+System.out.println(a); // Output: 6
+System.out.println(b); // Output: 5
+```
+
+## Decrement Operator (`--`)
+The decrement operator decreases the value of a variable by `1`.
+
+### Syntax
+```java
+variable--;
+--variable;
+```
+
+### Types of Decrement Operators
+
+#### 1. Pre-Decrement (`--variable`)
+The value is decremented before it is used in the expression.
+
+```java
+int a = 5;
+int b = --a;
+
+System.out.println(a); // Output: 4
+System.out.println(b); // Output: 4
+```
+
+#### 2. Post-Decrement (`variable--`)
+The value is used first and then decremented.
+
+```java
+int a = 5;
+int b = a--;
+
+System.out.println(a); // Output: 4
+System.out.println(b); // Output: 5
+```
+
 ## Type Casting
 
 Type casting is the process of converting a value from one data type to another. In Java, type casting is of two types:
