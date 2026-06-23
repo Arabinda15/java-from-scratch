@@ -184,6 +184,64 @@ public class Main {
 - Use different methods according to the type of data being read.
 - It is good practice to close the scanner using `sc.close()` after use.
 
+## Operator Precedence and Associativity
+
+### Operator Precedence
+Operator precedence determines the order in which operators are evaluated in an expression. Operators with higher precedence are evaluated before operators with lower precedence.
+
+### Example
+```java
+int result = 10 + 5 * 2;
+System.out.println(result); // Output: 20
+```
+
+**Explanation:**
+- `*` has higher precedence than `+`.
+- `5 * 2 = 10`
+- `10 + 10 = 20`
+
+Using parentheses changes the order of evaluation:
+
+```java
+int result = (10 + 5) * 2;
+System.out.println(result); // Output: 30
+```
+
+---
+
+## Associativity
+Associativity determines the order in which operators of the same precedence are evaluated.
+
+### Left-to-Right Associativity
+Most arithmetic operators follow left-to-right associativity.
+
+```java
+int result = 20 - 10 - 5;
+System.out.println(result); // Output: 5
+```
+
+**Explanation:**
+- `(20 - 10) - 5`
+- `10 - 5 = 5`
+
+### Right-to-Left Associativity
+Assignment operators follow right-to-left associativity.
+
+```java
+int a, b, c;
+a = b = c = 10;
+
+System.out.println(a); // 10
+System.out.println(b); // 10
+System.out.println(c); // 10
+```
+
+**Explanation:**
+- `c = 10`
+- `b = c`
+- `a = b`
+
+---
 ## Type Casting
 
 Type casting is the process of converting a value from one data type to another. In Java, type casting is of two types:
